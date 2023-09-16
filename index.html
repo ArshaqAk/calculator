@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5nC8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20190614/original/pngtree-vector-calculator-icon-png-image_3782871.jpg">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-3 col-sm-1">
+
+            </div>
+
+
+
+
+            <div class="cal col-lg-6 col-sm-12">
+
+                <h1 class="mt-2">CALCULATOR</h1>
+            <!-- <form action=""  -->
+                <div class="system  mt-4">
+
+                <div class="screen">
+                <input type="text" id="result">
+            </div>
+
+            <div class="buttn">
+                <div class="row1">
+                <button  onclick="clearNum('AC')" style="color: rgb(212, 25, 25);">AC</button>
+                <button   onclick="back()" style="color: rgb(251, 252, 252);">DE</button>
+                <button  onclick="displayNum('.')">.</button>
+                <button  onclick="displayNum('/')">/</button>
+            </div>
+            <div class="row2">
+
+                <button  onclick="displayNum(7)">7</button>
+                <button  onclick="displayNum(8)">8</button>
+                <button  onclick="displayNum(9)">9</button>
+                <button   onclick="displayNum('*')">*</button>
+            </div>
+            <div class="row3">
+                <button onclick="displayNum(4)">4</button>
+                <button onclick="displayNum(5)">5</button>
+                <button   onclick="displayNum(6)">6</button>
+                <button  onclick="displayNum('-')">-</button>
+            </div>
+            <div class="row4">
+                <button   onclick="displayNum(1)">1</button>
+                <button   onclick="displayNum(2)">2</button>
+                <button  onclick="displayNum(3)">3</button>
+                <button   onclick="displayNum('+')">+</button>
+            </div>
+
+            <div class="row5">
+
+                <button  onclick="displayNum('00')">00</button>
+                <button  onclick="displayNum(0)">0</button>
+                <button class="eq"  onclick="evaluateNum()">=</button>
+            </div>
+
+            </div>
+
+        </div>
+
+
+            </form>
+
+
+
+            </div>
+            <div class="col-lg-3 col-sm-1">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+<script src="./script.js"></script>   
+</body>
+</html>
